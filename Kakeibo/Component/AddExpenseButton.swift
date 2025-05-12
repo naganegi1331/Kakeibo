@@ -17,7 +17,7 @@ struct AddExpenseButton: View {
         } label: {
             Image(systemName: "plus.circle.fill")
                 .resizable()
-                .frame(width: 70, height: 70)
+                .frame(width: 60, height: 60)
                 .foregroundColor(.blue)
                 .shadow(radius: 5)
         }
